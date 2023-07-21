@@ -287,9 +287,11 @@
   font-size: 1.5rem;
 }
 
+/* -- shop section -- */
+
 .shop{
   background: #fff;
-  padding: 8rem 5rem;
+  padding: 5rem 5rem;
 }
 
 .shop .box-container{
@@ -340,6 +342,62 @@
 .shop .box-container .right-box div{
   text-align: center;
   margin-top: 2rem;
+}
+
+
+/* -- Blog section -- */
+
+.blog{
+  margin: 3rem 5rem;
+}
+
+.blog h1{
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.blog .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+}
+
+.blog .box-container .box{
+  background: #eef1ef;
+  width: 25rem;
+}
+
+.blog .box-container .box .image{
+  overflow: hidden;
+  height: 16rem;
+}
+
+.blog .box-container .box .image img{
+  width: 25rem;
+  height: 34rem;
+  object-fit: cover;
+}
+
+.blog .box-container .box .content{
+  margin: 1rem 1rem;
+}
+
+.blog .box-container .box .content h3{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.blog .box-container .box .content span{
+  color: var(--green);
+}
+
+.blog .box-container .box .content  p{
+  margin: 1.5rem 0;
+}
+.blog .box-container .box .content  .btn{
+  padding-bottom: 1.5rem;
 }
 
 
