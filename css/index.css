@@ -205,14 +205,19 @@
   font-weight: light;
 }
 
+.pages .container{
+  overflow-x: auto;
+}
+
 .pages .container .box{
   margin: 2rem;
+  flex: 0 0 55rem;
 }
 
 
 .pages .page .container{
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 
 /*.pages .page .container .box{
